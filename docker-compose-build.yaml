@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: caadocker/reverseproxy-v2
+  backend_user:
+    build:
+      context: ../../udagram-backend-user
+    image: caadocker/udagram-user-v2
+  backend_feed:
+    build:
+      context: ../../udagram-backend-feed
+    image: caadocker/udagran-feed-v2
+  frontend:
+    build:
+      context: ../../udagram-frontend  
+    image: caadocker/udagram-frontend-v2
