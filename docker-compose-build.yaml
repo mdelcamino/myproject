@@ -6,11 +6,11 @@ services:
     image: caadocker/reverseproxy-v2
   backend_user:
     build:
-      context: udagram-api-user
+      context: ./udagram-api-user
     image: caadocker/api-user
   backend_feed:
     build:
-      context: udagram-api-feed
+      context: ./udagram-api-feed
     image: caadocker/api-feed
   frontend:
     build:
