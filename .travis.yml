@@ -18,7 +18,7 @@ before_install:
 install:
   - docker-compose -f docker-compose-build.yaml build --parallel 
   - docker-compose -f docker-compose-build.yaml push
- script:
+script:
   - kubectl get pods
   - kubectl set image deployments/backend-feed backend-feed=caadocker/api-feed:latest
   - kubectl set image deployments/backend-user backend-user=caadocker/api-user:latest
