@@ -24,3 +24,4 @@ install:
   - kubectl set image deployments/backend-user backend-user=caadocker/api-user:latest
   - kubectl set image deployments/myproject myproject=caadocker/myproject:latest
   - kubectl set image deployments/reverseproxy reverseproxy=caadocker/reverseproxy-v2:latest
+
