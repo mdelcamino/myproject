@@ -1,0 +1,331 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 11cfd3aa-7c89-45cf-b320-91dd548aca92@1.worker-com-oss-6bfdccb59f-6t7m2.gce-production-3
+version: v6.2.20-1-g3a987d6 https://github.com/travis-ci/worker/tree/3a987d61ed169c9539ad435d1a9b5f2d8c6ce4a6
+instance: travis-job-1e6cc55d-96f8-45f0-8ab7-9f8836767ad5 travis-ci-stevonnie-xenial-1553530512-f909ac5 (via amqp)
+startup: 6.139078557s
+travis_fold:end:worker_info[0Ktravis_time:start:086367b9[0Ktravis_time:end:086367b9:start=1606500306485826371,finish=1606500306607276613,duration=121450242,event=no_world_writable_dirs[0Ktravis_time:start:1050a02c[0Ktravis_time:end:1050a02c:start=1606500306609983580,finish=1606500306612856712,duration=2873132,event=setup_filter[0Ktravis_time:start:2905830d[0Ktravis_time:end:2905830d:start=1606500306616973674,finish=1606500306625758071,duration=8784397,event=agent[0Ktravis_time:start:000aeb34[0Ktravis_time:end:000aeb34:start=1606500306628338874,finish=1606500306630231609,duration=1892735,event=check_unsupported[0Ktravis_time:start:07c058e0[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: shell
+Build dist: xenial
+Build id: 204969068
+Job id: 449926235
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: cd707aa7
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:34:11 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 9.5.14
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+travis_fold:end:system_info[0K
+travis_time:end:07c058e0:start=1606500306632691641,finish=1606500306638105942,duration=5414301,event=show_system_info[0Ktravis_time:start:0ef3de4c[0Ktravis_time:end:0ef3de4c:start=1606500306640642654,finish=1606500306651673311,duration=11030657,event=rm_riak_source[0Ktravis_time:start:2fcb0dac[0Ktravis_time:end:2fcb0dac:start=1606500306654636917,finish=1606500306659809612,duration=5172695,event=fix_rwky_redis[0Ktravis_time:start:01b98279[0Ktravis_time:end:01b98279:start=1606500306662579846,finish=1606500307318350240,duration=655770394,event=wait_for_network[0Ktravis_time:start:0c4a6e90[0Ktravis_time:end:0c4a6e90:start=1606500307323084316,finish=1606500307506174512,duration=183090196,event=update_apt_keys[0Ktravis_time:start:07f80f56[0Ktravis_time:end:07f80f56:start=1606500307510261133,finish=1606500307562478498,duration=52217365,event=fix_hhvm_source[0Ktravis_time:start:04c80df0[0Ktravis_time:end:04c80df0:start=1606500307566763992,finish=1606500307569500479,duration=2736487,event=update_mongo_arch[0Ktravis_time:start:00cb00c5[0Ktravis_time:end:00cb00c5:start=1606500307573354521,finish=1606500307612902231,duration=39547710,event=fix_sudo_enabled_trusty[0Ktravis_time:start:008e0fbc[0Ktravis_time:end:008e0fbc:start=1606500307616926127,finish=1606500307619130822,duration=2204695,event=update_glibc[0Ktravis_time:start:04094a28[0Ktravis_time:end:04094a28:start=1606500307623041365,finish=1606500307630623783,duration=7582418,event=clean_up_path[0Ktravis_time:start:00406733[0Ktravis_time:end:00406733:start=1606500307636226897,finish=1606500307644077855,duration=7850958,event=fix_resolv_conf[0Ktravis_time:start:097487d0[0Ktravis_time:end:097487d0:start=1606500307649630704,finish=1606500307658703841,duration=9073137,event=fix_etc_hosts[0Ktravis_time:start:08cee35c[0Ktravis_time:end:08cee35c:start=1606500307664280181,finish=1606500307675008661,duration=10728480,event=fix_mvn_settings_xml[0Ktravis_time:start:1cf83d80[0Ktravis_time:end:1cf83d80:start=1606500307680594974,finish=1606500307691636773,duration=11041799,event=no_ipv6_localhost[0Ktravis_time:start:02f9b4c9[0Ktravis_time:end:02f9b4c9:start=1606500307696698605,finish=1606500307699176095,duration=2477490,event=fix_etc_mavenrc[0Ktravis_time:start:0345d038[0Ktravis_time:end:0345d038:start=1606500307702883751,finish=1606500307706906090,duration=4022339,event=fix_wwdr_certificate[0Ktravis_time:start:01efe349[0Ktravis_time:end:01efe349:start=1606500307712291894,finish=1606500307737279982,duration=24988088,event=put_localhost_first[0Ktravis_time:start:1ba04a18[0Ktravis_time:end:1ba04a18:start=1606500307741406608,finish=1606500307744723217,duration=3316609,event=home_paths[0Ktravis_time:start:1e38a988[0Ktravis_time:end:1e38a988:start=1606500307748595542,finish=1606500307767236355,duration=18640813,event=disable_initramfs[0Ktravis_time:start:0c3e7f2a[0Ktravis_time:end:0c3e7f2a:start=1606500307772015948,finish=1606500308104832799,duration=332816851,event=disable_ssh_roaming[0Ktravis_time:start:01ca2dd4[0Ktravis_time:end:01ca2dd4:start=1606500308108926418,finish=1606500308111565555,duration=2639137,event=debug_tools[0Ktravis_time:start:01784f52[0Ktravis_time:end:01784f52:start=1606500308117020467,finish=1606500308120364401,duration=3343934,event=uninstall_oclint[0Ktravis_time:start:0ca4488e[0Ktravis_time:end:0ca4488e:start=1606500308123903794,finish=1606500308126997289,duration=3093495,event=rvm_use[0Ktravis_time:start:2774a34e[0Ktravis_time:end:2774a34e:start=1606500308131833368,finish=1606500308139805220,duration=7971852,event=rm_etc_boto_cfg[0Ktravis_time:start:09c8d540[0Ktravis_time:end:09c8d540:start=1606500308143529635,finish=1606500308146472761,duration=2943126,event=rm_oraclejdk8_symlink[0Ktravis_time:start:089de4f9[0Ktravis_time:end:089de4f9:start=1606500308149837732,finish=1606500308254066478,duration=104228746,event=enable_i386[0Ktravis_time:start:367de368[0Ktravis_time:end:367de368:start=1606500308258549389,finish=1606500308262694796,duration=4145407,event=update_rubygems[0Ktravis_time:start:040d42d6[0Ktravis_time:end:040d42d6:start=1606500308267880436,finish=1606500308280063749,duration=12183313,event=ensure_path_components[0Ktravis_time:start:008cc02d[0Ktravis_time:end:008cc02d:start=1606500308283963258,finish=1606500308286234819,duration=2271561,event=redefine_curl[0Ktravis_time:start:1b75caa0[0Ktravis_time:end:1b75caa0:start=1606500308290082305,finish=1606500308362233547,duration=72151242,event=nonblock_pipe[0Ktravis_time:start:08ef57d8[0Ktravis_time:end:08ef57d8:start=1606500308366225010,finish=1606500314400060291,duration=6033835281,event=apt_get_update[0Ktravis_time:start:3520c751[0Ktravis_time:end:3520c751:start=1606500314404515282,finish=1606500314406827086,duration=2311804,event=deprecate_xcode_64[0Ktravis_time:start:111a8298[0Ktravis_time:end:111a8298:start=1606500314410603900,finish=1606500317118110806,duration=2707506906,event=update_heroku[0Ktravis_time:start:3497e950[0Ktravis_time:end:3497e950:start=1606500317122949612,finish=1606500317125322869,duration=2373257,event=shell_session_update[0Ktravis_time:start:01a287c0[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:01a287c0:start=1606500317129671813,finish=1606500319597863813,duration=2468192000,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:1d56e588[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1d56e588:start=1606500319605831476,finish=1606500319670093829,duration=64262353,event=resolvconf[0Ktravis_time:start:2f916aaa[0Ktravis_time:end:2f916aaa:start=1606500319679889615,finish=1606500319831129758,duration=151240143,event=maven_central_mirror[0Ktravis_time:start:16b93030[0Ktravis_time:end:16b93030:start=1606500319835470088,finish=1606500319930461228,duration=94991140,event=maven_https[0Ktravis_time:start:003524f0[0Ktravis_fold:start:services[0Ktravis_time:start:03339fd8[0K$ sudo systemctl start docker
+travis_time:end:03339fd8:start=1606500319939192937,finish=1606500319952117011,duration=12924074,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:03339fd8:start=1606500319939192937,finish=1606500322959720763,duration=3020527826,event=services[0Ktravis_time:start:013ab101[0Ktravis_time:end:013ab101:start=1606500322964260095,finish=1606500322966525910,duration=2265815,event=fix_ps4[0Ktravis_time:start:0021b277[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:178e6c2a[0K$ git clone --depth=50 --branch=master https://github.com/mdelcamino/myproject.git mdelcamino/myproject
+Cloning into 'mdelcamino/myproject'...
+travis_time:end:178e6c2a:start=1606500322973817061,finish=1606500323980494209,duration=1006677148,event=checkout[0K$ cd mdelcamino/myproject
+$ git checkout -qf 1a7d233f3f151fb1d050808e3a3011b5f6c73504
+travis_fold:end:git.checkout[0K
+travis_time:end:178e6c2a:start=1606500322973817061,finish=1606500324111099553,duration=1137282492,event=checkout[0Ktravis_time:start:100097a0[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export DOCKER_PASSWORD=[secure]
+$ export DOCKER_USERNAME=[secure]
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DOCKER_COMPOSE_VERSION=1.23.2
+
+travis_time:end:100097a0:start=1606500324114921528,finish=1606500324126371822,duration=11450294,event=env[0K$ bash -c 'echo $BASH_VERSION'
+4.3.48(1)-release
+
+travis_fold:start:before_install.1[0Ktravis_time:start:033e7d40[0K$ docker -v && docker-compose -v
+Docker version 18.06.0-ce, build 0ffa825
+docker-compose version 1.23.1, build b02f1306
+travis_time:end:033e7d40:start=1606500324135772670,finish=1606500324795112979,duration=659340309,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:1eeb36b3[0K$ sudo rm /usr/local/bin/docker-compose
+travis_time:end:1eeb36b3:start=1606500324801556678,finish=1606500324812632163,duration=11075485,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:08ec4d18[0K$ curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+travis_time:end:08ec4d18:start=1606500324819464559,finish=1606500325672720052,duration=853255493,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:060d0598[0K$ chmod +x docker-compose
+travis_time:end:060d0598:start=1606500325678579536,finish=1606500325682009332,duration=3429796,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:001804d4[0K$ sudo mv docker-compose /usr/local/bin
+travis_time:end:001804d4:start=1606500325688371147,finish=1606500325696390515,duration=8019368,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:08acb21a[0K$ echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+WARNING! Your password will be stored unencrypted in /home/travis/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+travis_time:end:08acb21a:start=1606500325700739888,finish=1606500341273249326,duration=15572509438,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_fold:start:before_install.7[0Ktravis_time:start:108005e1[0K$ echo 'dockerhub credentials configured'
+dockerhub credentials configured
+travis_time:end:108005e1:start=1606500341281453701,finish=1606500341286057867,duration=4604166,event=before_install[0Ktravis_fold:end:before_install.7[0Ktravis_fold:start:install.1[0Ktravis_time:start:2eb0d1a4[0K$ docker-compose -f docker-compose-build.yaml build --parallel
+Building reverseproxy ... 
+Building backend_user ... 
+Building backend_feed ... 
+Building frontend     ... 
+Building reverseproxy
+Building backend_feed
+Building backend_user
+Building frontend
+Step 1/7 : FROM node:11
+Step 1/7 : FROM node:11
+Step 1/7 : FROM node:11
+Step 1/2 : FROM nginx:alpine
+11: Pulling from library/node
+11: Pulling from library/node
+11: Pulling from library/node
+alpine: Pulling from library/nginx
+Digest: sha256:1e9c503db9913a59156f78c6420f6e2f01c8a3b71ceeeddcd7f604c4db0f045e
+Status: Downloaded newer image for nginx:alpine
+ ---> 98ab35023fd6
+Step 2/2 : COPY nginx.conf /etc/nginx/nginx.conf
+ ---> a59a0ae4f415
+Successfully built a59a0ae4f415
+Successfully tagged [secure]/reverseproxy-v2:latest
+[4A[2KBuilding reverseproxy ... [32mdone[0m[4BDigest: sha256:67ca28addce8ae818b144114a9376a6603aba09069b7313618d37b38584abba1
+Digest: sha256:67ca28addce8ae818b144114a9376a6603aba09069b7313618d37b38584abba1
+Digest: sha256:67ca28addce8ae818b144114a9376a6603aba09069b7313618d37b38584abba1
+Status: Downloaded newer image for node:11
+Status: Image is up to date for node:11
+Status: Downloaded newer image for node:11
+ ---> 5b97b72da029
+Step 2/7 : WORKDIR /usr/src/app
+ ---> 5b97b72da029
+Step 2/7 : WORKDIR /usr/src/app
+ ---> 5b97b72da029
+Step 2/7 : WORKDIR /usr/src/app
+ ---> Running in 3c2d2860b457
+ ---> Running in f1da00d2df95
+ ---> Running in 262eb68e7e03
+Removing intermediate container 3c2d2860b457
+ ---> 2ded68da3c61
+Step 3/7 : COPY package*.json ./
+Removing intermediate container 262eb68e7e03
+ ---> 99f69d436d05
+Step 3/7 : COPY package*.json ./
+Removing intermediate container f1da00d2df95
+ ---> fc6d08d35f75
+Step 3/7 : COPY package*.json ./
+ ---> 05ca0b629115
+Step 4/7 : RUN npm ci
+ ---> 9d53f995a138
+Step 4/7 : RUN npm ci
+ ---> Running in 0187e8ab789c
+ ---> Running in 73cccccfa609
+ ---> ea697da1cb67
+Step 4/7 : RUN npm ci
+ ---> Running in 1322f8572335
+
+> bcrypt@5.0.0 install /usr/src/app/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+
+> bcrypt@5.0.0 install /usr/src/app/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[91mnode-pre-gyp[0m[91m [0m[91minfo[0m[91m [0m[91mit worked if it ends with[0m[91m ok
+[0m[91mnode-pre-gyp[0m[91m [0m[91minfo[0m[91m [0m[91musing[0m[91m node-pre-gyp@0.15.0
+[0m[91mnode-pre-gyp[0m[91m [0m[91minfo[0m[91m [0m[91musing[0m[91m node@11.15.0 | linux | x64
+[0m[91mnode-pre-gyp[0m[91m [0m[91mWARN[0m[91m [0m[91mUsing needle for node-pre-gyp https download[0m[91m 
+[0m[91mnode-pre-gyp[0m[91m [0m[91minfo[0m[91m [0m[91mcheck[0m[91m checked for "/usr/src/app/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" (not found)
+[0m[91mnode-pre-gyp[0m[91m [0m[91mhttp[0m[91m [0m[91mGET[0m[91m https://github.com/kelektiv/node.bcrypt.js/releases/download/v5.0.0/bcrypt_lib-v5.0.0-napi-v3-linux-x64-glibc.tar.gz
+[0m[91mnode-pre-gyp[0m[91m [0m[91minfo it worked if it ends with ok
+[0m[91mnode-pre-gyp info[0m[91m using node-pre-gyp@0.15.0
+node-pre-gyp info [0m[91musing node@11.15.0 | linux | x64
+[0m[91mnode-pre-gyp[0m[91m [0m[91mhttp[0m[91m [0m[91m302[0m[91m https://github.com/kelektiv/node.bcrypt.js/releases/download/v5.0.0/bcrypt_lib-v5.0.0-napi-v3-linux-x64-glibc.tar.gz
+[0m[91mnode-pre-gyp WARN Using needle for node-pre-gyp https download 
+[0m[91mnode-pre-gyp [0m[91minfo check checked for "/usr/src/app/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" (not found)
+[0m[91mnode-pre-gyp http GET https://github.com/kelektiv/node.bcrypt.js/releases/download/v5.0.0/bcrypt_lib-v5.0.0-napi-v3-linux-x64-glibc.tar.gz
+[0m[91mnode-pre-gyp[0m[91m http 200 https://github.com/kelektiv/node.bcrypt.js/releases/download/v5.0.0/bcrypt_lib-v5.0.0-napi-v3-linux-x64-glibc.tar.gz
+[0m[91mnode-pre-gyp[0m[91m [0m[91mhttp[0m[91mnode-pre-gyp info install unpacking napi-v3/bcrypt_lib.node
+[0m[91m [0m[91m302[0m[91m https://github.com/kelektiv/node.bcrypt.js/releases/download/v5.0.0/bcrypt_lib-v5.0.0-napi-v3-linux-x64-glibc.tar.gz
+[0m[91mnode-pre-gyp info tarball done parsing tarball
+node-pre-gyp info ok 
+[0m[bcrypt] Success: "/usr/src/app/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[91mnode-pre-gyp http 200[0m[91m https://github.com/kelektiv/node.bcrypt.js/releases/download/v5.0.0/bcrypt_lib-v5.0.0-napi-v3-linux-x64-glibc.tar.gz
+[0m[91mnode-pre-gyp info [0m[91minstall unpacking napi-v3/bcrypt_lib.node
+[0m[91mnode-pre-gyp[0m[91m [0m[91minfo[0m[91m [0m[91mtarball[0m[91m done parsing tarball
+[0m[bcrypt] Success: "/usr/src/app/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[91mnode-pre-gyp[0m[91m [0m[91minfo[0m[91m [0m[91mok[0m[91m 
+[0madded 497 packages in 146.093s
+added 497 packages in 146.339s
+
+> fsevents@1.2.13 install /usr/src/app/node_modules/fsevents
+> node install.js
+
+
+Skipping 'fsevents' build as platform linux is not supported
+
+> core-js@2.6.9 postinstall /usr/src/app/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> bufferutil@4.0.1 install /usr/src/app/node_modules/bufferutil
+> node-gyp-build
+
+
+> @angular/cli@8.3.29 postinstall /usr/src/app/node_modules/@angular/cli
+> node ./bin/postinstall/script.js
+
+
+> core-js@3.6.4 postinstall /usr/src/app/node_modules/@angular-devkit/build-angular/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+added 1682 packages in 149.091s
+Removing intermediate container 0187e8ab789c
+ ---> fc52f926465c
+Step 5/7 : COPY . .
+ ---> 28191fe30cba
+Step 6/7 : EXPOSE 8080
+Removing intermediate container 1322f8572335
+ ---> 6eccaaae79e5
+Step 5/7 : COPY . .
+ ---> Running in fe3f20eded3f
+Removing intermediate container fe3f20eded3f
+ ---> 88aaeaefd52d
+Step 7/7 : CMD [ "npm", "run", "prod" ]
+ ---> Running in f2e52d3e7ebd
+ ---> 95dba30810a8
+Step 6/7 : EXPOSE 8080
+ ---> Running in 673696d60703
+Removing intermediate container f2e52d3e7ebd
+ ---> 521b65265640
+Successfully built 521b65265640
+Successfully tagged [secure]/api-feed:latest
+[2A[2KBuilding backend_feed ... [32mdone[0m[2BRemoving intermediate container 673696d60703
+ ---> 733205080d69
+Step 7/7 : CMD [ "npm", "run", "prod" ]
+ ---> Running in 04cf0181faa0
+Removing intermediate container 04cf0181faa0
+ ---> a54e27b900b8
+Successfully built a54e27b900b8
+Successfully tagged [secure]/api-user:latest
+[3A[2KBuilding backend_user ... [32mdone[0m[3BRemoving intermediate container 73cccccfa609
+ ---> 057fc687f91d
+Step 5/7 : COPY . .
+ ---> c45dc0936648
+Step 6/7 : EXPOSE 8080
+ ---> Running in 4b679ef0499f
+Removing intermediate container 4b679ef0499f
+ ---> a5aa498b53bf
+Step 7/7 : CMD [ "npm", "run", "prod" ]
+ ---> Running in 43da57dcdc81
+Removing intermediate container 43da57dcdc81
+ ---> 39b54f896188
+Successfully built 39b54f896188
+Successfully tagged [secure]/myproject:latest
+[1A[2KBuilding frontend     ... [32mdone[0m[1Btravis_time:end:2eb0d1a4:start=1606500341293210391,finish=1606500543998200187,duration=202704989796,event=install[0Ktravis_fold:end:install.1[0Ktravis_fold:start:install.2[0Ktravis_time:start:0b051887[0K$ docker-compose -f docker-compose-build.yaml push
+Pushing reverseproxy ([secure]/reverseproxy-v2:latest)...
+The push refers to repository [docker.io/[secure]/reverseproxy-v2]
+latest: digest: sha256:132ad0cbd0c216cb8760c748b711904ce3f819d804e198d20219c102f68816dc size: 1567
+Pushing backend_user ([secure]/api-user:latest)...
+The push refers to repository [docker.io/[secure]/api-user]
+latest: digest: sha256:aea19e9cb969fc54cc5b593cd2bfe0df4ac42389197fb5b525664a04ac1aac96 size: 3054
+Pushing backend_feed ([secure]/api-feed:latest)...
+The push refers to repository [docker.io/[secure]/api-feed]
+latest: digest: sha256:fb66d037940cfdeb12b6ac584045b9d17c71dc98f7e911ec288ed5b599cc55ac size: 3054
+Pushing frontend ([secure]/myproject:latest)...
+The push refers to repository [docker.io/[secure]/myproject]
+latest: digest: sha256:e0f784ce38ad5d95a9d226dd33d21d9dc64b0d8c9a281161113b8e195e6aa105 size: 3055
+travis_time:end:0b051887:start=1606500544002719594,finish=1606500618700815320,duration=74698095726,event=install[0Ktravis_fold:end:install.2[0K[32;1mThe command "docker-compose -f docker-compose-build.yaml push" exited with 0.[0m
+
+
+Done. Your build exited with 0.
