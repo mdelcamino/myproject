@@ -8,5 +8,12 @@ COPY package*.json ./
 RUN npm ci 
 # Bundle app source
 COPY . .
-EXPOSE 8080
-CMD [ "npm", "run", "prod" ]
+RUN ionic build
+#EXPOSE 8080
+#CMD [ "npm", "run", "prod" ]
+
+## Run 
+FROM nginx:alpine
+#COPY www /usr/share/nginx/html
+COPY --from=ionic  /usr/src/app/www /usr/share/nginx/html
+
