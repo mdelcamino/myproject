@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: ___INSERT_AWS_BUCKET___
-  AWS_PROFILE: ___INSERT_AWS_PROFILE___
-  AWS_REGION: ___INSERT_AWS_REGION___
-  JWT_SECRET: ___INSERT_JWT_SECRET___
-  POSTGRES_DB: ___INSERT_POSTGRES_DB___
-  POSTGRES_HOST: ___INSERT_POSTGRES_HOST___
+  AWS_BUCKET: caa-s3-refactoringproyect
+  AWS_PROFILE: default
+  AWS_REGION: eu-west-3
+  JWT_SECRET: caa
+  POSTGRES_DB: caadb1
+  POSTGRES_HOST: caadb1.cjlo9y5vd5l9.eu-west-3.rds.amazonaws.com
   URL: http://localhost:8100  
 metadata:
   name: env-config
